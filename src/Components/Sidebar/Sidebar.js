@@ -3,7 +3,7 @@ import './Sidebar.css'
 import {AiFillPlusCircle} from 'react-icons/ai'
 
 function Sidebar(props) {
-    const color = ["#fe9b72", "#fec971", "#00d47e", "#b693fd", "#e4ee91"]
+    const color = ["#fe9b72", "#fec971", "#00d47e", "#b693fd", "#e4ee91", "purple", "red", "pink"]
 
     const [listOpen, setlistOpen] = useState(false);
   return (
