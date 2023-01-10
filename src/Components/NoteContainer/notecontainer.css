@@ -13,3 +13,12 @@
     gap: 20px;
     overflow-y: scroll;
 }
+
+@media(min-width: 992px){
+    
+}
+@media(max-width: 570px){
+    .note-container_notes {
+        height: 100%;
+    }
+}

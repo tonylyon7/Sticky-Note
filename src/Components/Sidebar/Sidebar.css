@@ -33,3 +33,18 @@
     width: 26px;
     list-style: none;
 }
+
+@media(min-width: 992px){
+    
+}
+
+@media(max-width: 570px){
+    .plus {
+        height: 30px;
+        width: 30px;
+        margin-left: 0px;
+    }
+    .sidebar-list {
+        margin-left: -30px;
+    }
+}

@@ -36,3 +36,14 @@
 .delete:hover{
     opacity: 1;
 }
+
+@media(min-width: 992px){
+    
+}
+@media(max-width: 570px){
+    .note {
+        padding: 10px;
+        height: 200px;
+        width: 220px;
+    }
+}
