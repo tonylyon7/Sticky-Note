@@ -27,15 +27,11 @@
 
 .delete {
     cursor: pointer;
-    opacity: 0;
     transition: 300ms;
     height: 30px;
     width: 30px;
 }
 
-.delete:hover{
-    opacity: 1;
-}
 
 @media(min-width: 992px){
     
