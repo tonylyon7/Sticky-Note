@@ -1,0 +1,35 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.plus {
+    height: 70px;
+    width: 70px;
+    margin-left: 27%;
+    cursor: pointer;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: -30%;
+    margin-top: -1rem;
+    height: 0;
+    transition: 300ms;
+}
+
+.sidebar-list-active{
+    height: 300px;
+}
+
+.color-select{
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    list-style: none;
+}
